@@ -1,0 +1,305 @@
+4. Python
+=========
+
+4.1 Data download
+-----------------
+
+Python information contains library files、project code and
+firmware,please click to download for follow-up study.
+
+Data download:  :download:`Python <./Python.7z>`
+
+4.2 Download Thonny
+-------------------
+
+**For Windows**——**Operating System: Windows 10**
+
+Enter `Thonny IDE official <https://thonny.org>`__ to download the
+Thonny for Windows version.
+
+|image1|
+
+|image2|
+
+**For MAC**
+
+Please refer to Windows.
+
+|image3|
+
+|image4|
+
+4.3 Install Thonny
+------------------
+
+Thonny supports two installation methods:
+
+- Thonny+Python package
+
+  Python IDE and Thonny are packaged together and can be directly
+  installed and used. It is fast and easy so is recommended for
+  beginners. There are also two ways to install this package:
+
+  - Installer
+
+  |image5|
+
+  - Portable variant
+
+  |image6|
+
+- Thonny only
+
+  Thonny is actually a package of python. When the user already has a
+  python environment, click ``pip install thonny`` to install Thonny
+  only, which is more suitable for developers.
+
+|image7|
+
+Please download the corresponding version according to your
+requirements.
+
+4.3.1 Installer
+~~~~~~~~~~~~~~~
+
+Download the app according to your operation system. Here we demonstrate
+under 64bit Windows 10 to download
+``Installer with 64-bit Python 3.10``.
+
+(1) Click\ |image8|\ and you will see “Select Setup Install Mode”.
+    Choose **Install for me only**.
+
+|image9|
+
+(2) **Next**.
+
+|image10|
+
+(3) Tick **I accept the agreement** and Click **Next**.
+
+|image11|
+
+(4) The default installation path is in Disk C. You may click
+    **Browse…** to choose another disk. And then click **Next**.
+
+|image12|
+
+(5) By default, a shortcut to the program is created in the Start menu
+    folder. Click **Browse…** to set another path for the shortcut and
+    **Next**.
+
+|image13|
+
+(6) Tick **Create desktop icon** and **Next**.
+
+|image14|
+
+(7) Install.
+
+|image15|
+
+(8) “\ **Finish**\ ”!
+
+|image16|
+
+(9) Back to the desktop and start Thonny to choose a language.
+
+|image17|
+
+(10) Done.
+
+|image18|
+
+4.3.2 Portable Variant
+~~~~~~~~~~~~~~~~~~~~~~
+
+Download the app according to your operation system. Here we demonstrate
+under 64bit Windows 10 to download
+``Installer with 64-bit Python 3.10``.
+
+(1) Click\ |image19|\ to start Thonny and choose a language.
+
+|image20|
+
+(2) Done.
+
+|image21|
+
+4.4 Burn Firmware (Important)
+-----------------------------
+
+To run MicroPython code on Pico, it is necessary to burn MicroPython
+firmware to Pico.
+
+|image22|
+
+A. Connect the board to your computer via Micro USB.
+
+B. Press and hold the white button (BOOTSEL) on “Raspberry Pi Pico”.
+Then, connect the Raspberry Pi Pico to the computer via a microUSB
+cable.
+
+|image23|
+
+C. Release the button. After connection, open [Device Manager] and your
+computer will automatically recognize the removable disk (RPI-RP2) as
+follows:
+
+|image24|
+
+D. Copy the ``RPI_PICO-20250809-v1.26.0.uf2`` file from the “Firmware”
+folder to the removable disk (RPI-RP2), just like copying a file to a
+USB flash drive, and then wait for it to complete.
+
+|image25|
+
+E. After burning the firmware, Raspberry Pi Pico will restart. After
+that, you can run Micropython.
+
+4.5 Homepage
+------------
+
+Click **View** and tick **Files** to open the file manager.
+
+|image26|
+
+|image27|
+
+4.6 Toolbar
+-----------
+
+|image28|
+
+========= ====================
+Icon      Function
+========= ====================
+|image29| New
+|image30| Open…
+|image31| Save
+|image32| Run current script
+|image33| Debug current script
+|image34| Step over
+|image35| Step into
+|image36| Step out
+|image37| Resume
+|image38| Stop/Restart backend
+========= ====================
+
+4.7 Connect Pico to Thonny
+--------------------------
+
+Connect the Pico development board to the computer, then set the
+development board to Pico and select the port.
+
+Click ``Tools``–>\ ``Options...``
+
+|image39|
+
+Select ``Interpreter`` , then set the development board to
+``MicroPython(Raspberry Pi Pico)``, and choose the ports automatically
+recognized, and click ``OK``.
+
+|image40|
+
+After connection, “Raspberry Pi Pico” will appear on the left side of
+Thonny and there will also be a prompt in the lower right corner.
+
+|image41|
+
+4.8 Load Code from Computer
+---------------------------
+
+Note: You need to download the required data files from
+``1.Download code and library files`` and extract them to your desktop.
+
+Click Files –> This computer, open the file ``Resources``.
+
+|image42|
+
+Enter ``codes`` and you can see the codes. Click it to open the file in
+Thonny.
+
+|image43|
+
+4.9 Upload Library to Pico
+--------------------------
+
+Errors may be reported during running code without saving the library to
+Pico.
+
+|image44|
+
+**Add library:**
+
+In Files, open ``Resources`` –> ``lib`` to check library:
+
+|image45|
+
+Choose ``mecanumCar_v2.py`` to “Upload to/”.
+
+After that, ``mecanumCar_v2.py`` is displayed in “Raspberry Pi Pico”.
+
+4.10 Project
+------------
+
+.. toctree::
+    :maxdepth: 1
+
+    Project/Project1
+    Project/Project2
+    Project/Project3
+    Project/Project4
+    Project/Project5
+    Project/Project6
+    Project/Project7
+    Project/Project8
+    Project/Project9
+    Project/Project10
+    Project/Project11
+    Project/Project12
+
+.. |image1| image:: media/image-20251225094215827.png
+.. |image2| image:: media/image-20251225094224474.png
+.. |image3| image:: media/image-20251225094251333.png
+.. |image4| image:: media/image-20251225094257717.png
+.. |image5| image:: media/image-20251225094340824.png
+.. |image6| image:: media/image-20251225094418450.png
+.. |image7| image:: media/image-20251225094438410.png
+.. |image8| image:: media/image-20251225094656746.png
+.. |image9| image:: media/image-20251225094710773.png
+.. |image10| image:: media/image-20251225094722624.png
+.. |image11| image:: media/image-20251225094733958.png
+.. |image12| image:: media/image-20251225094745054.png
+.. |image13| image:: media/image-20251225094756189.png
+.. |image14| image:: media/image-20251225094807453.png
+.. |image15| image:: media/image-20251225094817094.png
+.. |image16| image:: media/image-20251225094827537.png
+.. |image17| image:: media/image-20251225094838584.png
+.. |image18| image:: media/image-20251225094849514.png
+.. |image19| image:: media/image-20251225094926824.png
+.. |image20| image:: media/image-20251225094942771.png
+.. |image21| image:: media/image-20251225094954552.png
+.. |image22| image:: media/image-20251225095228383.png
+.. |image23| image:: media/image-20251225095308584.png
+.. |image24| image:: media/image-20251225095322413.png
+.. |image25| image:: media/thonny-25.gif
+.. |image26| image:: media/image-20251225095410873.png
+.. |image27| image:: media/image-20251225095427358.png
+.. |image28| image:: media/image-20251225095805737.png
+.. |image29| image:: media/image-20251225095854972.png
+.. |image30| image:: media/image-20251225095903528.png
+.. |image31| image:: media/image-20251225100113505.png
+.. |image32| image:: media/image-20251225095911610.png
+.. |image33| image:: media/image-20251225095919250.png
+.. |image34| image:: media/image-20251225095929680.png
+.. |image35| image:: media/image-20251225095936575.png
+.. |image36| image:: media/image-20251225095949043.png
+.. |image37| image:: media/image-20251225095956843.png
+.. |image38| image:: media/image-20251225100015839.png
+.. |image39| image:: media/image-20251225100230430.png
+.. |image40| image:: media/image-20251225100242375.png
+.. |image41| image:: media/image-20251225100256090.png
+.. |image42| image:: media/image-20251227094838735.png
+.. |image43| image:: media/image-20251227094935407.png
+.. |image44| image:: media/image-20251227095638353.png
+.. |image45| image:: media/image-20251227095713125.png

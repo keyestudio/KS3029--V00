@@ -1,0 +1,98 @@
+3. Arduino Tutorial
+===================
+
+3.1 Data download
+-----------------
+
+Arduino information contains library files and project code ,please
+click to download for follow-up study.
+
+Data download:  :download:`Arduino <./Arduino.7z>`
+
+3.2 Software Download
+---------------------
+
+Open the browser and search: https://www.arduino.cc/en/software, we will
+take WINDOWS system as an example to show you how to download and
+install.
+
+|image1|
+
+You just need to click JUSTDOWNLOAD,then click the downloaded file to
+install it.And when the ZIP file is downloaded,you can directly unzip
+and start it.
+
+|image2|
+
+3.3 Set Arduino IDE
+-------------------
+
+Set the pico environment
+(information：https://github.com/earlephilhower/arduino-pico)
+
+|image3|
+
+Enter the URL in the「Additional Boards Manager
+URLs」https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json.
+
+|image4|
+
+Click OK,Select (Tools)→ (Board) → (Board Manager)
+
+|image5|
+
+Enter pico in the search area, the following screen will appear, and
+then click Install.
+
+|image6|
+
+The IDE is already installed.
+
+Then select(Tools)→ (Board) → Raspberry Pi RP2040 Boards(1.9.6) →
+Raspberry Pi Pico.
+
+|image7|
+
+After selecting the development board, select the Port to connect to
+Pico.
+
+|image8|
+
+3.4 Add Library
+---------------
+
+Open the Arduino IDE, follow [Sketch] → [Include Library] → [Add .zip
+Library]. This method can only import one library file at a time. If the
+product has multiple libraries, please import them one by one following
+this process!
+
+|image9|
+
+3.5 Project
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    Project/Project1
+    Project/Project2
+    Project/Project3
+    Project/Project4
+    Project/Project5
+    Project/Project6
+    Project/Project7
+    Project/Project8
+    Project/Project9
+    Project/Project10
+    Project/Project11
+    Project/Project12
+
+.. |image1| image:: media/1.gif
+.. |image2| image:: media/2.gif
+.. |image3| image:: media/image-20251224152012769.png
+.. |image4| image:: media/image-20251224152307668.png
+.. |image5| image:: media/image-20251224152925308.png
+.. |image6| image:: media/wps1.jpg
+.. |image7| image:: media/image-20251224153020612.png
+.. |image8| image:: media/image-20251224153052470.png
+.. |image9| image:: media/144.gif
