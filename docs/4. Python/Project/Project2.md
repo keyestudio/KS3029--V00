@@ -52,12 +52,7 @@ Click![](media/wps1-1766562955201-1.jpg)to run the code, then we can see that th
 
 **6.Expanded Project Flowing Water Light** 
 
-```
-Keyestudio 4WD Mecanum Robot for Pico
-lesson 2.2
-WS2812
-http://www.keyestudio.com
-'''
+```python
 from machine import Pin,I2C
 import mecanumCar_v2
 import time
